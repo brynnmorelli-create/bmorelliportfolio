@@ -1,0 +1,127 @@
+@charset "utf-8";
+header {
+    background-color: #fff;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 10;
+}
+footer {
+    width: 100%;
+    margin-top: 10px;
+    /* [disabled]margin-right: 10px; */
+    margin-bottom: 10px;
+    /* [disabled]margin-left: 10px; */
+    text-align: center;
+    float: left;
+}
+#page-content {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 8px solid #54210F;
+}
+#main-copy {
+    width: 500px;
+    min-width: 0px;
+    padding: 20;
+    margin-right: 50px;
+    float: left;
+    background-color: #FFFFFF;
+    min-height: 200px;
+    color: #000000;
+    text-align: left;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #C7A393;
+}
+
+#sidebar {
+    width: 290px;
+    float: right;
+    background-position: center bottom;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    background-repeat: no-repeat;
+    color: #000000;
+    background-color: #FFFFFF;
+    min-height: 0px;
+}
+
+nav {
+    padding: 10;
+    width: 200px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+h1 {
+    margin: 0px;
+    color: #54210F;
+    font-size: 30px;
+}
+h2 {
+    color: #54210F;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+p {
+    margin-bottom: 10px;
+}
+a {
+    color: #54210F;
+    font-weight: bold;
+    text-decoration: none;
+    width: auto;
+    height: auto;
+}
+a:hover {
+    color: #AF6913;
+}
+figure {
+    width: 300px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+}
+#main-copy figure img {
+    width: 300px;
+    height: auto;
+}
+#sidebar p {
+    text-align: center;
+    padding-bottom: 5px;
+}
+#sidebar h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    border-bottom: thin solid #54210F;
+}
+nav p {
+    margin-top: 15px;
+    font-size: 18px;
+}
